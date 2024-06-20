@@ -18,7 +18,9 @@ so the password is 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x72, 0x61, 0x70, 0x69, 0
 
 <h1>BASIC COMMUNICATION FRAME FORMAT</h1>
 This format is essential for understanding how data is structured and transmitted between devices.
-![image](https://github.com/Akash-shakya/RFID_Implementation_Program/assets/48617331/fbde603a-1996-4831-ad35-69463bdda707)
+
+![image](https://github.com/Akash-shakya/RFID_Implementation_Program/assets/48617331/ba45fa6f-5f0c-4c98-8797-39f24ed1f9d2)
+
 
 <h2>For Set the Power</h2>
 Power of RFID reader by sending the following command :
