@@ -28,7 +28,7 @@ Power of RFID reader by sending the following command :
 
 • 14 : Frame length <br>
 • F0-06 : Command Code for Set Power<br>
-• 13 : 13H , in Decimal It is 19 So power is set to 19 dBm<br>
+• 13 : 13H in Hex means 19 in Decimal, So power is set to 19 dBm<br>
 • 00-00-00-00-00-00-72-61-70-69-64-72-61-64-69-6F : Password of RFID module<br>
 • 3117 : CRC<br>
 
@@ -38,8 +38,8 @@ Frequency of RFID reader by sending the following command :
 
 • 15 : Frame length <br>
 • F0-03 : Command Code for Set Frequency <br>
-• 07 : Maximum frequency <br>
-• 02 : Minimum frequency <br>
+• 07 : Maximum frequency <br> 07 for set maximum frequency 866.5 MHz
+• 02 : Minimum frequency <br> 02 for set minimum frequency 865.5 MHz
 • 00-00-00-00-00-00-72-61-70-69-64-72-61-64-69-6F : Password of RFID module <br>
 • 83-54 : CRC <br>
 ![image](https://github.com/Akash-shakya/RFID_Implementation_Program/assets/48617331/f49b844f-d581-43e4-8597-1e531292e293)
